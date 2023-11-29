@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="manifest" href="site.webmanifest">
+    <link rel="apple-touch-icon" href="assets/favicon/apple-touch-icon.png">
+    <link rel="shortcut icon" href="assets/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="Login">
+    <meta property="og:description" content="Login">
+    <meta property="og:image" content="assets/favicon/android-chrome-512x512.png">
+    
+  <link rel="manifest" href="assets/favicon/site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mitr&display=swap" rel="stylesheet">
+  <title>Escolha seu gato</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="fundo">
+
+    <div class="Menu">
+      <h1 id="titulo"></h1>
+      <button id="buttonClose" title="Deslogar"  onclick="sair()">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-box-arrow-in-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M10 3.5a.5.5 0 0 0-.5-.5h-8a.5.5 0 0 0-.5.5v9a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 1 1 0v2A1.5 1.5 0 0 1 9.5 14h-8A1.5 1.5 0 0 1 0 12.5v-9A1.5 1.5 0 0 1 1.5 2h8A1.5 1.5 0 0 1 11 3.5v2a.5.5 0 0 1-1 0v-2z"></path>
+            <path fill-rule="evenodd" d="M4.146 8.354a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5H14.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3z"></path>
+          </svg>
+      </button>
+    </div>
+
+    <div class="button-container">
+      <button class="btnGatinho" onclick="mostrarImagem('branco')">Branco</button>
+      <button class="btnGatinho" onclick="mostrarImagem('preto')">Preto</button>
+      <button class="btnGatinho" onclick="mostrarImagem('frajola')">Frajola</button>
+      <button class="btnGatinho" onclick="mostrarImagem('laranja')">Laranja</button>
+      <button class="btnGatinho" onclick="mostrarImagem('tricolor')">Tricolor</button>
+      <button class="btnGatinho" onclick="mostrarImagem('siames')">Siamês</button>
+    </div>
+    <div id="imagemGato"></div>
+  </div>
+
+  <button onclick="proximo()" class="buttonPronto">Pronto</a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+<script>
+  function proximo(){
+  window.location.href = "../Tabela/materias.html";
+  }
+</script>

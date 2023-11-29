@@ -1,0 +1,117 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+  height: 0vh;
+  margin: 0px;
+  padding: 0px;
+  background-repeat: no-repeat;
+  background-color: rgb(0, 0, 0);
+  background-image: url(../Fundo/background.gif);
+  align-items: center;
+  min-height: 79vh;
+  background-size: auto;
+  overflow: hidden;
+}
+
+#titulo {
+  text-align: center;
+  font-family: 'Acme', sans-serif;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: antiquewhite;
+  text-shadow: 2px 4px 6px rgb(34 34 34 / 70%);
+}
+
+.fundo {
+  position: absolute;
+  backdrop-filter: blur(7px);
+  box-shadow: rgb(16, 16, 16) 0px 20px 22px -9px;
+  padding: 1rem;
+  border-radius: 60px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  top: 5%;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+img {
+  margin: 0 auto;
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.btnGatinho {
+  color: rgb(71, 42, 3);
+  background-color: antiquewhite;
+  font-size: 15px;
+  font-family: 'Mitr', sans-serif;
+  border-radius: 16px;
+  padding: 7px 20px;
+  margin: 5px;
+  border: 0;
+  transition: .2s cubic-bezier(0.48, 0, 0.57, 1);
+  box-shadow: 0px 12px 24px 0px rgba(0, 0, 0, 0.1);
+  width: auto;
+  display: inline-block;
+  cursor: pointer;
+
+}
+.btnGatinho:hover {
+
+  background-image: linear-gradient(163deg, #88a838 0%, #508010 100%);
+  color:aliceblue;
+}
+
+#Titulo-menu {
+  color: aliceblue;
+}
+
+.Menu {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+#buttonClose {
+  background-color: #ffa568;
+  border: 0px;
+  margin: -30px;
+  cursor: pointer;
+  border-radius: 100%;
+  /* font-size: 5px; */
+  padding: 12px 11px 11px 13px;
+}
+
+.buttonPronto {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .2s cubic-bezier(0.48, 0, 0.57, 1);
+  background-image: linear-gradient(163deg, #508010 0%, #88a838 100%);
+  color: #fff4e7;
+  text-decoration: none;
+  font-family: 'Mitr', sans-serif;
+  font-size: 17px;
+  border-radius: 16px;
+  top: 600px;
+    position: absolute;
+    cursor: pointer;
+}
+.buttonPronto:hover{
+  background-image: linear-gradient(163deg, #faebd7 100%, #faebd7 100%);
+  color:#508010;
+}

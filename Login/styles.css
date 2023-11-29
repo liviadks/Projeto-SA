@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  text-align: center;
+  background-image: url(../Fundo/background.gif);
+  
+}
+
+.form {
+  padding: 1rem;
+  backdrop-filter: blur(7px);
+  box-shadow: 10px 15px 18px -5px rgb(22 22 22 / 98%);  
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  padding-left: 2em;
+  padding-right: 2em;
+  padding-bottom: 0.4em;
+  border-radius: 20px;
+}
+
+#heading {
+  
+  font-family: 'Acme', sans-serif;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px;
+  color: rgb(248, 243, 237);
+}
+
+.field {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5em;
+  border-radius: 25px;
+  padding: 0.6em;
+  border: none;
+  outline: none;
+  color: white;
+  box-shadow: 2px 3px 8px 0px rgb(10 10 10);
+}
+
+.field ::placeholder {
+  color: rgba(255, 255, 255, 0.726);
+}
+
+.input-icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #799d2d;
+}
+
+.input-field {
+  background: none;
+  border: none;
+  outline: none;
+  width: 100%;
+  color: #c8c898;
+}
+
+.form .btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 0px;
+  margin-bottom: 25px;
+}
+
+.button1 {
+  padding: 0.5em;
+    padding-left: 2.3em;
+    padding-right: 2.3em;
+    border-radius: 5px;
+    margin-right: 0.5em;
+    border: none;
+    outline: none;
+    transition: .2s cubic-bezier(0.48, 0, 0.57, 1);
+    color: #769e36;
+    background-color: antiquewhite;
+    text-decoration: none;
+    font-family: 'Mitr', sans-serif;
+    font-size: 17px;
+    cursor: pointer;
+    border-radius: 16px;
+}
+
+.button1:hover {
+  background-image: linear-gradient(163deg, #88a838 0%, #508010 100%);
+  color:aliceblue;
+
+}
+
+.button2 {
+  padding: 0.5em;
+  padding-left: 2.3em;
+  padding-right: 2.3em;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  transition: .2s cubic-bezier(0.48, 0, 0.57, 1);
+  background-image: linear-gradient(163deg, #508010 0%, #88a838 100%);
+  color: #fff4e7;
+  text-decoration: none;
+  font-family: 'Mitr', sans-serif;
+  font-size: 17px;
+  border-radius: 16px;
+}
+
+.button2:hover {
+
+  background-image: linear-gradient(163deg, #faebd7 100%, #faebd7 100%);
+  color:#508010;
+}
+
+
+
+.card {
+  transform: translate(-50%, -50%);
+  top: 50%;
+  position: absolute;
+  left: 50%;
+}
+
+.card2 {
+  border-radius: 0;
+  transition: all .2s;
+}
+
+.card2:hover {
+  transform: scale(0.98);
+  border-radius: 20px;
+}
+
+.loginn {
+  height: 100vh;
+  position: relative;
+}
